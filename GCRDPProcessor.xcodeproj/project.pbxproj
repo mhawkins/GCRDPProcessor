@@ -16,6 +16,7 @@
 		C9602E89183E991C00618E3D /* libGCRDPProcessor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9602E71183E991B00618E3D /* libGCRDPProcessor.a */; };
 		C9602E8F183E991C00618E3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9602E8D183E991C00618E3D /* InfoPlist.strings */; };
 		C9602E91183E991C00618E3D /* GCRDPProcessorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9602E90183E991C00618E3D /* GCRDPProcessorTests.m */; };
+		C9602E9B183E992E00618E3D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9602E9A183E992E00618E3D /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		C9602E8C183E991C00618E3D /* GCRDPProcessorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GCRDPProcessorTests-Info.plist"; sourceTree = "<group>"; };
 		C9602E8E183E991C00618E3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C9602E90183E991C00618E3D /* GCRDPProcessorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCRDPProcessorTests.m; sourceTree = "<group>"; };
+		C9602E9A183E992E00618E3D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9602E9B183E992E00618E3D /* CoreLocation.framework in Frameworks */,
 				C9602E75183E991C00618E3D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,6 +103,7 @@
 		C9602E73183E991C00618E3D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C9602E9A183E992E00618E3D /* CoreLocation.framework */,
 				C9602E74183E991C00618E3D /* Foundation.framework */,
 				C9602E82183E991C00618E3D /* XCTest.framework */,
 				C9602E85183E991C00618E3D /* UIKit.framework */,
