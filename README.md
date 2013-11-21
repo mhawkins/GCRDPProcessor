@@ -10,9 +10,9 @@ Create a processor:
 `GCRDPProcessor *rdpProcessor = [[GCRDPProcessor alloc] init];`
 
 Pass it an array of CLLocation objects
-`NSArray *locations = @[ [[CLLocation alloc] initWithLatitude:40.030744 longitude:-76.236439], .... ];
-double episilonInMeters = 500.0;
-NSArray *lessLocations = [rdpProcessor douglasPeckerWithLocations:locationsArray andEpsilon:episilonInMeters];
+`NSArray *locations = @[ [[CLLocation alloc] initWithLatitude:40.030744 longitude:-76.236439], .... ];`
+`double episilonInMeters = 500.0;`
+`NSArray *lessLocations = [rdpProcessor douglasPeckerWithLocations:locationsArray andEpsilon:episilonInMeters];
 `
 
 Note
